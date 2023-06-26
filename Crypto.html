@@ -1,0 +1,827 @@
+
+
+<html>
+    <head>
+        <title>CRYPTO Nation Academy</title>
+           
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <style>
+       body
+       {
+background-color:#454343;
+       }
+        html
+        {
+        scroll-behavior:auto;
+        }
+        .row1
+        {
+         display:inline-flex;
+         padding:40px;
+        
+        }
+        .row1 a
+        {
+         margin-right:0px;
+         margin-left:30px;
+         font-size:16px;
+         text-decoration:none;
+        }
+        .row1 a:hover
+        {
+         color:red;
+         transition:0.6s ease;
+        }
+        span
+        {
+        color:darkolivegreen;
+        font-family:Times New Roman;
+        }
+        .row2 a
+        {
+         color:black;
+         text-decoration:none;
+        }
+        .row2 button
+        {
+         border-radius:10px;
+        }
+        .Head
+        {
+         display:flex;
+/*         justify-content:space-around;*/
+        }
+        .Head a
+        {
+            color:white;
+            font: weight 900px;
+            
+        }
+        /*.Head1
+        {
+         background:repeating-conic-gradient(black,white);
+          border-radius:15px;
+           margin-bottom:10px;
+    
+        }*/
+        .icon
+        {
+         cursor:pointer;
+        }
+        .row3 h2
+        {
+         text-align:center;
+        }
+        .row4 h3
+        {
+         text-align:center;
+        }
+        .About .text-justify
+        {
+         padding:15px;
+        }
+        .About button
+        {
+         border-radius:10px;
+        }
+        .About
+        {
+         /*box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;*/
+                   color:antiquewhite;
+                   border-radius:15px;
+
+        }
+        .row4 h2
+        {
+         text-align:center;
+        }
+        .row6 h3
+        {
+         text-align:center;
+        }
+        .row6 .progress-bar
+        {
+         color:black;
+         cursor:pointer;
+        }
+        }
+        .row7 h3
+        {
+         text-align:center;
+        }
+        .My-Services a
+        {
+         text-decoration:none;
+        }
+        .My-Services a:hover
+        {
+         color:darkblue;
+        }
+        .My-Services
+        {
+             /*box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;*/
+                   color:antiquewhite;
+                   border-radius:15px;
+                   margin-top:10px;
+                   margin-bottom:10px;
+        }
+        .row14 h3
+        {
+         text-align:center;
+         margin:0;
+         padding:0;
+        }
+        .Map
+        {
+        filter:invert(100%);
+        padding-bottom:10px;
+        margin-top:0;
+        }
+        .row15 h3
+        {
+         text-align:center;
+        }
+
+        .contact
+        {
+          /*box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;*/
+                   color:antiquewhite;
+                   border-radius:15px;
+        }
+        .contact1
+        {
+         padding-left:210px;
+        }
+        
+        .row8:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row9:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row10:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row11:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row12:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row40:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row13:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .footer a:hover
+        {
+         color:green;
+        }
+        .footer .row22
+        {
+         padding-left:60px;
+        }
+        .footer a
+        {
+        text-decoration:none;
+        padding:10px;
+        }
+        .row20
+        {
+         margin-top:-20px;
+        }
+        .resume
+        {
+         /*box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;*/
+                   color:antiquewhite;
+                   border-radius:15px;
+                   margin-top:10px;
+                   margin-bottom:10px;
+        }
+        .resume1
+        {
+        margin-left:120px;
+        padding-right:120px;
+        }
+        .footer
+        {
+         /*box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;*/
+                   color:antiquewhite;
+                   border-radius:15px;
+                   margin-top:10px;
+                   margin-bottom:10px;
+        }
+        #log
+        {
+            border-radius:10px;
+        }
+        .home
+        {
+          width:100%;
+          height:400px;
+          background-repeat:no-repeat;
+          background-size:cover;
+          color:white;
+          text-align:center;
+          padding-top:10vh;
+            background-image: url("https://c1.wallpaperflare.com/preview/796/816/45/business-currency-finance-dollar.jpg");
+        }
+        .home h1
+        {
+         font-size:60px;
+         font-family:sans-serif;
+        }
+        #frm
+        {
+         padding-left:80px;
+        }
+        .row11
+        {
+           line-height:3rem; 
+        }
+        .row40
+        {
+     
+            line-height:3rem;
+        }
+        
+    </style>
+    <body>
+        <div class="container-fluid Header ">
+        <div class="row">
+        <div class="col-sm-1"id="log">
+            <a href="https://cryptonationacademy.lk/" >
+                <img src="http://mrcryptosolutions.in/img/Untitled%20design%20(29).png"width="200px"height="50px"class="img-squar"alt="Crypto Nation Academy (Pvt) Ltd">
+            </a>
+    </div>
+    <div class="cal-sm-12 Head"class="navbar-nav">
+        <div class="row1"class="navbar-collapse">
+            <div class="cal-sm-2">
+            <a href="#home1"><b>HOME </b></a>
+        </div>
+        <div class="cal-sm-2">
+           <a href="#About"><b>ABOUT US</b></a>
+        </div>
+        <div class="cal-sm-2">
+           <a href="#Resume"><b>LMS</b></a>
+        </div>
+        <div class="cal-sm-2">
+            <a href="#Skills"><b>FAQ</b></a>
+        </div>
+        <div class="cal-sm-2">
+            <a href="#My-Services"><b>CONTACT US</b></a>
+        </div>
+        <div class="cal-sm-2">
+           <a href="file:///C:/Users/elcot/Desktop/Web-Projects/8.Form%20validation/form.html"><b>REGISTER NOW</b></a>
+        </div>
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <form class="form-inline"id="frm">
+    <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+  </form>
+</nav>
+
+</div>
+</div>
+</div>
+</div>
+
+
+     <div class="container-fluid Head1">
+    <div class="row2">
+        <div class="col-sm-5 home">  
+        <h1>Well Come To Cripto Nation Academy</h1>
+        <h3>A cryptocurrency is a digital currency, which is an alternative form of payment created using encryption algorithms.</h3>
+        <button type="button" class="btn btn-info">Join With Us</button>    
+    </div>
+    </div>
+    </div>
+
+     <div id="About" class="container-fluid  About">
+        <div class="row3">
+        <div class="cal-sm-12">
+        <h2 class="kg"style="color:#e6bb10;"><b>ABOUT US</b></h2>
+        </div>
+        <div class="row4">
+        <h3><mark style="border-radius:50px;"><i class="fa-sharp fa-solid fa-circle-dollar"></i><b>Crypto Nation Academy (Pvt) Ltd.</b></mark></h3>
+    <div class="col-sm-2">
+        <img class="img-circle"src="https://cryptonationacademy.lk/wp-content/uploads/2021/10/mobilogo_2-1.png"width="100px"height="100px"></div>
+        <div class="col-sm-12">
+        <p class="text-justify"><b>
+            Leading Place For The Creation Of Online Entrepreneurs In Sri Lanka Through Cryptocurrencies
+           <mark style="border-radius:50px;"> Where You Build Your Life By Opening The Door To Success</mark>
+            The Crypto Nation Academy (Pvt) LTD is the nation’s premier source for quality in-person and online education for blockchain professionals and newcomers alike. The team behind the CNA is an assortment of professionals across a spectrum of professions, including; software engineers, government trainers, data scientists, cryptographers, academics, entrepreneurs, investors, marketers, and more, but most importantly we’re a group of blockchain enthusiasts that want to help move blockchain adoption along
+            
+            Our vision is to expand the frontiers of knowledge in crypto trading for every individual to achieve his/her goals and to provide service to our citizens, communities and businesses. Our suite of programs teaches you everything you need to know about crypto trading and investing. From charting, to fundamental analysis, to building trading systems.</b></p>
+            
+            <button type="button"class="btn btn-info btn-xs">  View More  </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Resume" class="container-fluid Resume ">
+     <div class="row7">
+            <h3 class="kg"style="color:#e6bb10;text-align:center;"><b>MY SERVICES</b></h3>
+        <div class="col-sm12">
+            <div class="row8">
+        <div class="col-sm-6"style="background-color:skyblue;">   
+        <h4><i class="fa-solid fa-user-shield"style="color:black"></i><b> Lifetime CNA Membership</b></h4>
+        <p class="text-justify">You can watch the recording of class through our website</p>
+        <a href="#">Read More</a>
+    </div>
+    </div>
+    <div class="row9">
+    <div class="col-sm-6"style="background-color:dimgray;">
+        <h4><i class="fa-sharp fa-solid fa-user-tie"style="color:black;"></i><b>Being a Successful Crypto Trader</b></h4>
+        <p class="text-justify">We will definitely lead you to a very successful trader life. Cheers...</p>
+        <a href="#">Read More</a>
+    </div>
+    </div>
+    <div class="row10">
+    <div class="col-sm-6"style="background-color:orange;">
+        <h4><i class="fa-solid fa-users-gear"style="color:black;"></i><b> Intract With Recording</b></h4>
+        <p class="text-justify">You can get lifetime CNA studentship just for $35.
+            T & C Applied</p>
+        <a href="#">Read More</a>
+        <br><br>
+    </div>
+    </div>
+     <div class="row11">
+     <div class="col-sm-6"style="background-color:greenyellow">
+        <h4><i class="fa-solid fa-users"style="color:black;"></i><b> Attend Online
+            Live Classes</b></h4>
+        <p class="text-justify">You can attend our online classes through Zoom Technology</p>
+        <a href="#">Read More</a>
+    </div>
+    </div>
+
+</div>
+</div>
+</div>
+    
+    <div id="My-Services" class="container-fluid My-Services">
+        <div class="row7">
+            <h3 class="kg"style="color:#e6bb10;text-align:center;"><b>ONGOING COURSES WITH CNA & FXNA</b></h3>
+        <div class="col-sm12">
+            <div class="row8">
+        <div class="col-sm-4"style="background-color:black;">
+        <h4><i class="fa-solid fa-hand-holding-dollar"style="color:skyblue;"></i><b>Crybto Currency Blockchain Cource</b></h4>
+        <p class="text-justify">Shinhala Medium.</p>
+        <a href="#">Register now</a>
+    </div>
+    </div>
+    <div class="row9">
+    <div class="col-sm-4"style="background-color:black;">
+        <h4><i class="fab fa-bitcoin"style="color:skyblue;"></i><b> Crybto Currency Blockchain Cource</b></h4>
+        <p class="text-justify">Tamil Medium</p>
+        <a href="#">Register Now</a>
+    </div>
+    </div>
+    <div class="row10">
+    <div class="col-sm-4"style="background-color:black;">
+        <h4><i class="fas fa-chart-area"style="color:skyblue;"></i><b> Forex Trading -FXNA</b></h4>
+        <p class="text-justify">Shinhala Medium.</p>
+        <a href="#">Register Now</a>
+        <br><br>
+    </div>
+    </div>
+     <div class="row40">
+     <div class="col-sm-4"style="background-color:black;">
+        <h4><i class="fas fa-chart-line"style="color:skyblue;"></i><b>Forex Trading -FXNA</b></h4>
+        <p class="text-justify">Tamil Medium</p>
+        <a href="#">Register Now</a>
+    </div>
+    </div>
+    <div class="row12">
+    <div class="col-sm-4"style="background-color:black;">
+        <h4><i class="fas fa-chart-bar"style="color:skyblue;"></i><b> Forex Trading Cource-FZNA Individual</b></h4>
+        <p class="text-justify">Shinhala Medium.</p>
+        <a href="#">Register Now</a>
+    </div>
+    </div>
+    <div class="row13">
+    <div class="col-sm-4"style="background-color:black;">
+        <h4><i class="fas fa-chart-line"style="color:skyblue;"></i><b>  Forex Trading Cource-FZNA Individual</b></h4>
+        <p class="text-justify">Tamil Medium</p>
+        <a href="#">Register Now</a>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+
+    <!-- <div id="Map" class="container-fluid Map">
+        <div class="row14 well">
+            <h3 class="text-primary"><b>MY LOCATION</b></h3>
+        </div>
+        <div class="row20">
+            <div class="cal-sm-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31311.87525513858!2d77.75476027545567!3d11.188789290705904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba97a2348bb7be5%3A0xfdddf2a74bd8e96d!2sElumathur%2C%20Tamil%20Nadu%20638104!5e0!3m2!1sen!2sin!4v1675378497168!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div> -->
+
+<div id="Skills" class="container Skills">
+        <div class="row6">
+        <h3 class="kg"style="color:#e6bb10;text-align:center;"><b>Our Achievements</b></h3>
+        <h5 class="kg"style="color:#e6bb10;text-align:center;"><b>This Is Our Asset And Strength. Here you can review some statistics about our Education Acadamy.</b></h5>
+   <div class="col-sm-12">
+     <div class="row6">
+        <div class="col-sm-6">
+    <i class="fa-solid fa-users"style="color:white"></i>
+    <h6><b style="color:white">Students learning</b></h6>
+        <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+      3000+
+    </div>
+</div>
+</div>
+<div class="row6">
+        <div class="col-sm-6">
+    <i class="fa-solid fa-user-graduate"style="color:white"></i>
+    <h6><b style="color:white">Completed</b></h6>
+        <div class="progress">
+    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+    4,200+
+    </div>
+</div>
+</div>
+</div>
+<div class="row6">
+        <div class="col-sm-6">
+    <i class="fa-solid fa-book-open"style="color:white"></i>
+    <h6><b style="color:white">Successful Stories</b></h6>
+    <div class="progress">
+    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+      3,000+
+    </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row6">
+<div class="col-sm-6">
+    <i class="fa-solid fa-user"style="color:white"></i>
+    <h6><b style="color:white">Qualified Teachers</b></h6>
+        <div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    <!-- Under_Progress_0% -->4
+
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- <div id="Contact"class="container-fluid Contact">
+       <div class="container Cont">
+        <div class="row15">
+ -->
+        <div id="About" class="container-fluid  About">
+        <div class="row3">
+        <div class="cal-sm-12">
+        <h2 class="kg"style="color:#e6bb10;text-align:center;"><b>From Our Course</b></h2>
+        <div class="row4">
+        <div class="col-sm-6">
+        <p class="text-justify"><b>
+<ul>
+<li>BLOCKCHAIN TECHNOLOGY</li>
+<li>CONSENSUS MECHANISM</li>
+<li>CRYPTO VS TOKEN</li>
+<li>INTRODUTION TO BINANCE</li>
+<li>TRADE HISTORY</li>
+<li>CANDLESTICK PATTERNS</li>
+<li>LAGGING AND LEADING INDICATORS</li>
+<li>TRADING TACTICS</li>
+<li>MONEY MANAGEMENT SYSTEM</li>
+<li>LEDGER BOOK MANAGEMENT</li>
+<li>MARKET ANALYZING</li>
+<li>FUNDAMENTAL ANALYZING / FUNDAMENTAL NEWS TRACING</li>
+<li>SMART MONEY CONCEPT</li>
+<li>TREND IDENTIFICATION / MARKET STRUCTURE</li>
+<li>VALID CHOCH / BOS IDENTIFICATION</li>
+<li>ALL ABOUT ORDER BLOCKS / ORDER FLOW / POI</li>
+<li>TYPES OF LIQUIDITY/ ADVANCE LIQUIDITY METHODS</li>
+<li>FVG/ IMBALANCE</li>
+<li>MULTI TIME FRAME ANALYSIS</li>
+<li>MANIPULATION</li>
+<li>TRADE MANAGEMENT</li>
+<li>PHYCOLOGY</li>
+</ul></b></p>
+
+        
+            
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-sm-6">
+<img src="https://cryptonationacademy.lk/wp-content/uploads/2023/01/b07f304a-1773-41c9-8359-da9a2a62febb-1.jpg"style="width:100%">
+</div>
+</div>
+
+
+
+            <!-- <h3 class="text-primary"><b>CONTACT ME</b></h3>
+        </div>
+    </div>
+        <div class="container-fluid Contact1">
+        <form class="form-inline">
+            <div class="form-group">
+                <lable for="name">Name:</lable>
+                <input type="Text"class="form-control"id="name"placeholder="Enter-Your-Name">
+                <lable for="D.O.B">Date Of Birth:</lable>
+                <input type="date"class="form-control"id="D.O.B"></div> 
+        </form>
+
+        <form class="form-inline">
+            <div class="form-group1">
+            <lable for="degree">Degree:</lable>
+                <input type="text"class="form-control"id="degree"placeholder="Enter-Your-Degree">
+                <lable for="experience">Exprce:</lable>
+                <input type="text"class="form-control"id="experience"placeholder="Experience-Level"></div>
+            </form>
+
+        <form class="form-inline">
+            <div class="form-group">
+            <lable for="phone">Phone:</lable>
+                <input type="number"class="form-control"id="phone"placeholder="Contact-Number">
+                <lable for="email">Email Id:</lable>
+                <input type="email"class="form-control"id="email"placeholder="Enter-Your-Mail"></div>
+            </form>
+        <form class="form-inline">
+            <div class="form-group">
+            <lable for="address">Addres:</lable>
+                <input type="text"class="form-control"id="address"placeholder="Enter-Your-Address">
+                <lable for="freelancer">F-lancer:</lable>
+                <input type="text"class="form-control"id="freelancer"placeholder="Available(or)Not"></div>
+            </form>
+            <div class="btn"style="padding-left:260px">
+            <button type="button"class="btn btn-primary btn-xs">Submit</button>
+        </div>
+</div>
+</div>
+      <div class="container-fluid footer">
+        <div class="row21">
+            <div class="col-sm-12">
+            <div class="logo"style="padding-left:300px;margin-top:20px;">
+            <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-square-facebook"style="font-size:48px;color:darkblue;"></i></a>
+           </div>
+           <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-square-instagram"style="font-size:48px;color:deeppink;"></i></a>
+           </div>
+           <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-youtube"style="font-size:48px;color:red"></i></a>
+           </div>
+           <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-telegram"style="font-size:48px;color:deepskyblue;padding-right:10px;padding-left:10px;"></i></a>
+           </div>
+           <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-twitter"style="font-size:48px;color:deepskyblue;padding-left:10px;"></i></a>
+           </div>
+       </div>
+       </div>
+    <br><br><br>
+           <div class="container-fluid footer1"style="margin-top:40px;">
+            <div class="row22">
+            <div class="col-sm-12">
+            <a href="#"><b>About</b></a>
+         
+            <a href="#"><b>Need Help?</b></a>
+         
+            <a href="#"><b>Content Guide</b></a>
+           
+            <a href="#"><b>Lifehacker Store</b></a>
+           
+            <a href="#"><b>Privacy</b></a>
+          
+            <a href="#"><b>Terms of Use</b></a>
+       
+            <a href="#"><b>Advertising</b></a>
+         
+            <a href="#"><b>Jobs</b></a>
+           </div>
+       </div>
+           <div class="row23">
+           <div class="col-sm-12">
+            <h5 style="text-align:center;margin-top:30px;"><body>@2023<a href="#">GO Media Inc.</b></a></h5>
+           </div>
+
+
+
+       </div>
+</div>
+</div> -->
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid my-12">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <!-- Grid container -->
+    <div class="container-fluid p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h3 class="text-uppercase mb-4 font-weight-bold"class="kg"style="color:white;">
+              Company
+            </h3>
+            <p>
+              <a href="https://cryptonationacademy.lk/" class="kg"style="color:black;">Home</a>
+            </p>
+            <p>
+              <a href="https://cryptonationacademy.lk/about-us/" class="kg"style="color:black;">About Us</a>
+            </p>
+            <p>
+              <a href="https://cryptonationacademy.lk/our-team/"class="kg"style="color:black;">Meet Our Team</a>
+            </p>
+          </div>
+          <p>
+              <a href="https://cryptonationacademy.lk/blog/"class="kg"style="color:black;">Updates & News</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-12" />
+
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h3 class="text-uppercase mb-4 font-weight-bold"class="kg"style="color:white;">PROGRAM</h3>
+            <p>
+              <a href="file:///C:/Users/elcot/Desktop/Web-Projects/8.Form%20validation/form.html"class="kg"style="color:black;">Register Now</a>
+            </p>
+            <p>
+              <a href="https://lms.cryptonationacademy.lk/login/index.php"class="kg"style="color:black;">Learning Portal</a>
+            </p>
+            <p>
+              <a href="https://cryptonationacademy.lk/course-details/"class="kg"style="color:black;">course Details</a>
+            </p>
+            <p>
+              <a href="https://cryptonationacademy.lk/disclaimer/"class="kg"style="color:black;">Risk Disclaimer</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-12" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"class="kg"style="color:white;">
+            <h3 class="text-uppercase mb-4 font-weight-bold">
+              SUPPORT
+            </h3>
+            <p>
+              <a href="https://cryptonationacademy.lk/support-ticket/"class="kg"style="color:black;">Support Ticket</a>
+            </p>
+            <p>
+              <a href="https://cryptonationacademy.lk/faq/"class="kg"style="color:black;">F.A.Q</a>
+            </p>
+            <p>
+              <a href="https://www.google.com/search?q=crypto+nation+academy+reviews&sxsrf=AJOqlzXQ-bLLrXTQwNXJhWsi7pa95SAOOA%3A1675255889216&ei=UWDaY6vxDImM9u8P3c2EkAI&oq=crypto+nation+academy+re&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgUIIRCgATIICCEQFhAeEB06CggAEEcQ1gQQsAM6BwgAELADEEM6CwguEIAEEMcBEK8BOgQIABBDOgUIABCGA0oECEEYAEoECEYYAFDvCFiAEmC7HmgBcAF4AIAB9AGIAa8FkgEDMi0zmAEAoAEByAEKwAEB&sclient=gws-wiz-serp#lrd=0x3ae2e3328d220c45:0xc1ee1e864754f87f,1,,,,"class="kg"style="color:black;">Feedbacks</a>
+            </p>
+            <p>
+              <a href="https://cryptonationacademy.lk/contact/"class="kg"style="color:black;">Contact Us</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-12" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"class="kg"style="color:white;">
+            <h3 class="text-uppercase mb-4 font-weight-bold">Contact</h3>
+            <p class="kg"style="color:black;"><i class="fas fa-home mr-3"></i> No : 5/6, Wekanda Road, Homagama, Sri Lanka</p>
+            <p class="kg"style="color:black;"><i class="fas fa-envelope mr-3"></i> info@cryptonationacademy.lk</p>
+            <p class="kg"style="color:black;"><i class="fas fa-phone mr-3"></i> +94 11 347 0141 (9 AM to 6 PM)</p>
+            <p class="kg"style="color:black;"><i class="fas fa-print mr-3"></i> +94 11 347 0141 (9 AM to 6 PM)</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3"class="kg"style="color:black;">
+              © 2020 Copyright:
+              <a class="kg"style="color:white;" href="https://mdbootstrap.com/"
+                 >info@cryptonationacademy.lk</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end"class="kg"style="color:white;">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               role="button"class="kg"style="color:white;"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               role="button"class="kg"style="color:white;"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               role="button"class="kg"style="color:white;"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               role="button"class="kg"style="color:white;"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
